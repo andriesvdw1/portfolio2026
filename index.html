@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fullhd {
+  position: relative;
+  width: 1920px;
+  height: 1793px;
+  overflow: hidden;
+  background: #090e17;
+  
+}
+
+#demo-btn{
+  background-color: #005361;
+  border-radius: 6;
+  color: white;
+}
+
+#rectangle-1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 310px;
+  height: 320px;
+  background: #1e293b;
+}
+
+#rectangle-2 {
+  position: absolute;
+  left: 330px;
+  top: 10px;
+  width: 1580px;
+  height: 320px;
+  background: #1e293b;
+}
+
+#rectangle-3 {
+  position: absolute;
+  left: 339px;
+  top: 248px;
+  width: 677px;
+  height: 70px;
+  background: #151e2e;
+}
+
+#andries-cupx3mmv {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 290.58px;
+  height: 300px;
+  border-radius: 20px;
+  background: url('./Andries.jpg');
+  background-size: 290.58px 300px;
+  z-index: 1;
+}
+
+#andriesvanderwesthui {
+  position: absolute;
+  left: 354px;
+  top: 39px;
+  width: 475px;
+  height: 131px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #f7fafc;
+  z-index: 1;
+}
+
+#rectangle-4 {
+  display: none;
+  position: absolute;
+  left: 349px;
+  top: 241px;
+  width: 510px;
+  height: 70px;
+  border-radius: 6px;
+  background: #005361;
+}
+#rectangle-4 >* {margin:20px;}
+#rectangle-5 {
+  position: absolute;
+  left: 349px;
+  top: 241px;
+  width: 159px;
+  height: 50px;
+  border-radius: 6px;
+  background: #005361;
+}
+#rectangle-5 >* {margin:20px;}
+
+#contact {
+  position: absolute;
+  left: 926px;
+  top: 254px;
+  width: 136px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#rectangle-6 {
+  position: absolute;
+  left: 519px;
+  top: 241px;
+  width: 140px;
+  height: 50px;
+  border-radius: 6px;
+  background: #005361;
+}
+
+#rectangle-6 > * {margin-left:20px;}
+
+#demos {
+  position: absolute;
+  left: 1194px;
+  top: 254px;
+  width: 119px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  text-align: right;
+  color: #ffffff;
+}
+
+#skillscvdownload {
+  position: absolute;
+  left: 426px;
+  top: 254px;
+  width: 357px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#rectangle-7 {
+  position: absolute;
+  left: 10px;
+  top: 856px;
+  width: 1900px;
+  height: 210px;
+  background: #1e293b;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+#rectangle-7 > * {margin: 20px;}
+#rectangle-8 {
+  position: absolute;
+  left: 10px;
+  top: 350px;
+  width: 1900px;
+  height: 481px;
+  background: #1e293b;
+  display: flex;
+  flex-direction: row;
+}
+#rectangle-8 > * {margin: 20px;}
+#githubwithcv: {
+  position: absolute;
+  left: 42px;
+  top: 705px;
+  width: 266px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#linkedin: {
+  position: absolute;
+  left: 42px;
+  top: 769px;
+  width: 153px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#https:github.comandr {
+  position: absolute;
+  left: 334px;
+  top: 705px;
+  width: 541px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#https:www.linkedin.c {
+  position: absolute;
+  left: 338px;
+  top: 769px;
+  width: 1167px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#currentskills:websit {
+  position: absolute;
+  left: 42px;
+  top: 410px;
+  width: 738px;
+  height: 262px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #f7fafc;
+}
+
+#pythondatasciencebas {
+  position: absolute;
+  left: 829px;
+  top: 410px;
+  width: 984px;
+  height: 349px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #f7fafc;
+}
+
+#rectangle-9 {
+  position: absolute;
+  left: 10px;
+  top: 1090px;
+  width: 1900px;
+  height: 324px;
+  background: #1e293b;
+}
+
+#rectangle-9 > * {margin:20px;}
+
+#rectangle-10 {
+  position: absolute;
+  left: 10px;
+  top: 1439px;
+  width: 1900px;
+  height: 224px;
+  background: #1e293b;
+}
+#rectangle-10 > * {margin: 20px;}
+
+#githubwithcv: {
+  position: absolute;
+  left: 69px;
+  top: 1657px;
+  width: 266px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#mylinks: {
+  position: absolute;
+  left: 69px;
+  top: 1582px;
+  width: 161px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#rectangle-11 {
+  position: absolute;
+  left: 69px;
+  top: 1322px;
+  width: 409px;
+  height: 70px;
+  border-radius: 6px;
+  background: #005361;
+  padding: 6px;
+}
+
+#demotodowebapp {
+  position: absolute;
+  left: 126px;
+  top: 1335px;
+  width: 373px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#demonstrations: {
+  position: absolute;
+  left: 61px;
+  top: 1238px;
+  width: 280px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+#getintouchforaninter {
+  position: absolute;
+  left: 20px;
+  top: 921px;
+  width: 671px;
+  height: 175px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #f7fafc;
+}
+
+#languages:afrikaanse {
+  position: absolute;
+  left: 758px;
+  top: 921px;
+  width: 197px;
+  height: 131px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #f7fafc;
+}
+
+#nationality:southafr {
+  position: absolute;
+  left: 1022px;
+  top: 921px;
+  width: 231px;
+  height: 87px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #f7fafc;
+}
+
+#thisdemoshowsmyabili {
+  position: absolute;
+  width: 1118px;
+  height: 175px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+#https:github.comandr {
+  position: absolute;
+  left: 368px;
+  top: 1657px;
+  width: 541px;
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+body{background-color: black;}
+
+span{font-size: 36px; color:white;}
+
+a{background-color: #005361; color: white; border-radius: 10px; text-decoration: none;}
+
+#rectangle-G {
+  position: absolute;
+  width: 148px;
+  height: 50px;
+  border-radius: 6px;
+  background: #005361;
+  top: 241px;
+  left:669px;
+}
+#rectangle-G > *{ margin: 20px;}
+
+#rectangle-L {
+  position: absolute;
+  width: 169px;
+  height: 50px;
+  border-radius: 6px;
+  background: #005361;
+  top: 241px;
+  left:828px;
+}
+#rectangle-L > *{ margin: 20px;}
+    </style>
+</head>
+<body>
+    <div id="fullHD">
+    <div id="andries-cupx3mmv"></div>
+    <div id="rectangle-1">
+        <div id="andriesvanderwesthui">Andries van der Westhuizen<br>
+Web development student<br>
+Seeking IT Internship 2026</div>
+    </div>
+    <div id="rectangle-2"></div>
+    <div id="rectangle-3"></div>
+    <div id="rectangle-4"><a href=""><span>Skills & CV Download</span></a></div>
+    <div id="rectangle-5"><a href="#rectangle-7"><span>Contact</span></a></div>
+    <div id="rectangle-6"><a href="#Demonstrations"><span>Demos</span></a></div>
+    <div id="rectangle-G"><a href="https://github.com/andriesvdw1"><span>GitHub</span></a></div>
+    <div id="rectangle-L"><a href="https://www.linkedin.com/in/andries-van-der-westhuizen-1a759075/"><span>LinkedIn</span></a></div>
+    <div id="rectangle-7">
+        <pre><span>Get in touch for an internship interview:
+Andries van der Westhuizen
+Phone: +27781055231
+Email: andriesvdw1@gmail.com</span></pre>
+        <pre><span>Languages:
+Afrikaans
+English</span></pre>
+        <pre><span>Nationality:
+South African</span></pre>
+    </div>
+    <div id="rectangle-8">
+        <pre><span>Current Skills:
+Website layout design: Figma and Lunacy.
+ReactJS
+HTML5 & CSS3
+Web scripting: JavaScript and TypeScript.
+Database: Sqlite3 ,MySQL & MSSQL server.</span></pre>
+
+        <pre><span>Python Data Science Basics: 
+Pandas, Seaborn, Matplotlib.
+Git & Github
+REST API
+Agentic AI with OpenCode and Hermes.
+C#.NET
+ASP.NET Core 10 WEB API (Currently learning).
+
+Github with CV:<a href="https://github.com/andriesvdw1">GitHub</a>
+</span></pre>
+
+
+    </div>
+    <div id="rectangle-9">
+        
+    <div id ="Demonstrations"><span>Demonstrations:</span>
+        
+        <div id="thisdemoshowsmyabili"><pre>This demo shows my ability to create a To Do app with tasks that 
+can be added, removed and moved up or down for prioritization.
+A user can also enter their own task names by typing a task name
+and clicking on the "Add task" button.</pre></div>
+<a href="https://andries-todo-tasker.netlify.app/"><span id = "demo-btn">Demo To Do Web App</span></a>
+    </div>
+    
+
+    </div>
+
+    
+    <div id="rectangle-10">
+        <div class="mylinks"><span>My Links:</span></div>
+        <div class="githubwithcv"><span>Github with CV:  </span> <span><a href="https://github.com/andriesvdw1">GitHub</a></span></div>
+        <div class="LinkedIn"><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/andries-van-der-westhuizen-1a759075/"><span>LinkedIn</span></a></div>
+    </div>    
+    </div>
+    
+</body>
+</html>
