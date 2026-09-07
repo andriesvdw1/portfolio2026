@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <style>
-        #fullhd {
+/* ==========================================
+   1. DEFAULT STYLES (Base / Desktop First)
+   ========================================== */
+body {
+  background-color: black;
+}
+
+span {
+  font-size: 36px;
+  color: white;
+}
+
+a {
+  background-color: #005361;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Base Desktop ID (Notice capital HD) */
+#fullHD {
   position: relative;
   width: 1920px;
   height: 1793px;
@@ -15,7 +35,7 @@
 
 #demo-btn {
   background-color: #005361;
-  border-radius: 6px; /* Added unit */
+  border-radius: 6px;
   color: white;
 }
 
@@ -84,7 +104,6 @@
   border-radius: 6px;
   background: #005361;
 }
-#rectangle-4 > * { margin: 20px; }
 
 #rectangle-5 {
   position: absolute;
@@ -94,22 +113,6 @@
   height: 50px;
   border-radius: 6px;
   background: #005361;
-}
-#rectangle-5 > * { margin: 20px; }
-
-#contact {
-  position: absolute;
-  left: 926px;
-  top: 254px;
-  width: 136px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
 }
 
 #rectangle-6 {
@@ -121,37 +124,25 @@
   border-radius: 6px;
   background: #005361;
 }
-#rectangle-6 > * { margin-left: 20px; }
 
-#demos {
+#rectangle-G {
   position: absolute;
-  left: 1194px;
-  top: 254px;
-  width: 119px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  text-align: right;
-  color: #ffffff;
+  width: 148px;
+  height: 50px;
+  border-radius: 6px;
+  background: #005361;
+  top: 241px;
+  left: 669px;
 }
 
-#skillscvdownload {
+#rectangle-L {
   position: absolute;
-  left: 426px;
-  top: 254px;
-  width: 357px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
+  width: 169px;
+  height: 50px;
+  border-radius: 6px;
+  background: #005361;
+  top: 241px;
+  left: 828px;
 }
 
 #rectangle-7 {
@@ -165,7 +156,6 @@
   flex-direction: row;
   gap: 30px;
 }
-#rectangle-7 > * { margin: 20px; }
 
 #rectangle-8 {
   position: absolute;
@@ -177,102 +167,6 @@
   display: flex;
   flex-direction: row;
 }
-#rectangle-8 > * { margin: 20px; }
-
-/* Fixed colon in selector */
-#githubwithcv {
-  position: absolute;
-  left: 42px;
-  top: 705px;
-  width: 266px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
-
-/* Fixed colon in selector */
-#linkedin {
-  position: absolute;
-  left: 42px;
-  top: 769px;
-  width: 153px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
-
-/* Escaped special characters : and . */
-#https\:github\.comandr {
-  position: absolute;
-  left: 334px;
-  top: 705px;
-  width: 541px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
-
-/* Escaped special characters : and . */
-#https\:www\.linkedin\.c {
-  position: absolute;
-  left: 338px;
-  top: 769px;
-  width: 1167px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
-
-/* Escaped special character : */
-#currentskills\:websit {
-  position: absolute;
-  left: 42px;
-  top: 410px;
-  width: 738px;
-  height: 262px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #f7fafc;
-}
-
-#pythondatasciencebas {
-  position: absolute;
-  left: 829px;
-  top: 410px;
-  width: 984px;
-  height: 349px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #f7fafc;
-}
 
 #rectangle-9 {
   position: absolute;
@@ -282,7 +176,6 @@
   height: 324px;
   background: #1e293b;
 }
-#rectangle-9 > * { margin: 20px; }
 
 #rectangle-10 {
   position: absolute;
@@ -292,198 +185,111 @@
   height: 224px;
   background: #1e293b;
 }
-#rectangle-10 > * { margin: 20px; }
 
-/* Duplicate block renamed to maintain unique identifier */
-#githubwithcv-footer {
-  position: absolute;
-  left: 69px;
-  top: 1657px;
-  width: 266px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
+/* ==========================================
+   2. MEDIA QUERIES (Placed at the bottom)
+   ========================================== */
+@media (max-width: 1280px) {
+  #fullHD {
+    position: relative;
+    width: 1280px;
+    height: 1793px;
+    overflow: hidden;
+    background: #090e17;
+  }
 
-/* Fixed colon in selector */
-#mylinks {
-  position: absolute;
-  left: 69px;
-  top: 1582px;
-  width: 161px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
+  #andries-cupx3mmv {
+    left: 20px;
+    top: 20px;
+    width: 290.58px;
+    height: 300px;
+    border-radius: 20px;
+    background: url('./Andries.jpg');
+    background-size: 290.58px 300px;
+    z-index: 1;
+  }
 
-#rectangle-11 {
-  position: absolute;
-  left: 69px;
-  top: 1322px;
-  width: 409px;
-  height: 70px;
-  border-radius: 6px;
-  background: #005361;
-  padding: 6px;
+  #andriesvanderwesthui {
+    position: absolute;
+    width: 475px;
+    height: 131px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    white-space: nowrap;
+    color: #f7fafc;
+  }
 }
+@media (max-width: 768px) {
 
-#demotodowebapp {
-  position: absolute;
-  left: 126px;
-  top: 1335px;
-  width: 373px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
+    #fullHD {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        overflow: visible;
+    }
 
-/* Fixed colon in selector */
-#demonstrations {
-  position: absolute;
-  left: 61px;
-  top: 1238px;
-  width: 280px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
+    #rectangle-1,
+    #rectangle-2,
+    #rectangle-3,
+    #rectangle-7,
+    #rectangle-8,
+    #rectangle-9,
+    #rectangle-10 {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: calc(100% - 20px);
+        height: auto;
+        margin: 10px;
+    }
 
-#getintouchforaninter {
-  position: absolute;
-  left: 20px;
-  top: 921px;
-  width: 671px;
-  height: 175px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #f7fafc;
-}
+    #rectangle-7{
+      height: fit-content;
+      flex-direction: column;
+      text-align: center;
+    }
+     #rectangle-8{
+      height: fit-content;
+      flex-direction: column;
+      text-align: center;
+    }
+    #rectangle-10{ text-align: center;}
+    #andries-cupx3mmv {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 290px;
+        height: 300px;
+        margin: 20px auto;
+    }
 
-/* Escaped special character : */
-#languages\:afrikaanse {
-  position: absolute;
-  left: 758px;
-  top: 921px;
-  width: 197px;
-  height: 131px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #f7fafc;
-}
+    #andriesvanderwesthui {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: auto;
+        height: auto;
+        margin: 20px;
+        font-size: 24px;
+        line-height: 32px;
+        white-space: normal;
+        text-align: center;
+    }
 
-/* Escaped special character : */
-#nationality\:southafr {
-  position: absolute;
-  left: 1022px;
-  top: 921px;
-  width: 231px;
-  height: 87px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #f7fafc;
-}
+    span {
+        font-size: 20px;
+    }
 
-#thisdemoshowsmyabili {
-  position: absolute;
-  width: 1118px;
-  height: 175px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
+    pre {
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+    }
+    #rectangle-5, #rectangle-6, #rectangle-G, #rectangle-L {display: none;}
 }
-
-/* Duplicate block renamed to maintain unique identifier */
-#https\:github\.comandr-footer {
-  position: absolute;
-  left: 368px;
-  top: 1657px;
-  width: 541px;
-  height: 44px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  white-space: nowrap;
-  color: #ffffff;
-}
-
-body {
-  background-color: black;
-}
-
-span {
-  font-size: 36px;
-  color: white;
-}
-
-a {
-  background-color: #005361;
-  color: white;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-#rectangle-G {
-  position: absolute;
-  width: 148px;
-  height: 50px;
-  border-radius: 6px;
-  background: #005361;
-  top: 241px;
-  left: 669px;
-}
-#rectangle-G > * { margin: 20px; }
-
-#rectangle-L {
-  position: absolute;
-  width: 169px;
-  height: 50px;
-  border-radius: 6px;
-  background: #005361;
-  top: 241px;
-  left: 828px;
-}
-#rectangle-L > * { margin: 20px; }
-    </style>
+</style>
 </head>
 <body>
     <div id="fullHD">
@@ -536,10 +342,10 @@ Github with CV:<a href="https://github.com/andriesvdw1">GitHub</a>
         
     <div id ="Demonstrations"><span>Demonstrations:</span>
         
-        <div id="thisdemoshowsmyabili"><pre>This demo shows my ability to create a To Do app with tasks that 
+        <div id="thisdemoshowsmyabili"><pre><span>This demo shows my ability to create a To Do app with tasks that 
 can be added, removed and moved up or down for prioritization.
 A user can also enter their own task names by typing a task name
-and clicking on the "Add task" button.</pre></div>
+and clicking on the "Add task" button.</span></pre></div>
 <a href="https://andries-todo-tasker.netlify.app/"><span id = "demo-btn">Demo To Do Web App</span></a>
     </div>
     
